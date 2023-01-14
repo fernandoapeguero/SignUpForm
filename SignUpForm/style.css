@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  My css  */
+
+html {
+    box-sizing: border-box;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.image-container {
+  min-width: 40%;
+  height: 100%;
+  background-image: url("./files/images/bote_in_water.jpg");
+  background-position: center;
+}
+
+.information-container {
+  margin: auto;
+  padding: 0 50px;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-holder {
+  margin-top: 50px;
+}
+
+form {
+ 
+  display: flex;
+  gap: 50px;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 10px 40px;
+}
