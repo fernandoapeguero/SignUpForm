@@ -10,16 +10,22 @@
   <body>
     <div class="container">
       <div class="image-container">
-        <img src="" alt="Logo" />
+        <div class="logo-container">
+          <img class="logo" src="./files/images/logo.png" alt="Logo" />
+          <h1>The Future is Here</h1>
+        </div>
+
+        <p class="image-text">Photo by someone of unsplash.</p>
       </div>
       <div class="information-container">
         <div class="information">
-          <p>
+          <h1>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
             consectetur totam, tenetur ipsam ex aliquam exercitationem qui
-            quidem ut rem quaerat quae modi veritatis voluptatum nesciunt et?
-            Voluptate, esse accusantium.
-          </p>
+            quidem ut rem quaerat quae modi.
+          </h1>
+
+          <h2>The greates adventure ever!</h2>
         </div>
 
         <div class="form-holder">
@@ -27,21 +33,42 @@
           <form action="#">
             <div class="form_left">
               <label for="first_name">FIRST NAME</label
-              ><input type="text" name="first_name" id="first_name" />
+              ><input
+                tabindex="1"
+                type="text"
+                name="first_name"
+                id="first_name"
+              />
               <label for="email">EMAIL</label>
-              <input type="email" name="email" id="email" />
+              <input tabindex="3" type="email" name="email" id="email" />
               <label for="password">PASSWORD</label
-              ><input type="password" name="password" id="password" />
+              ><input
+                tabindex="5"
+                type="password"
+                name="password"
+                id="password"
+              />
             </div>
             <div class="form_right">
               <label for="last_name">LAST NAME</label
-              ><input type="text" name="last_name" id="last_name" />
+              ><input
+                tabindex="2"
+                type="text"
+                name="last_name"
+                id="last_name"
+              />
 
               <label for="phone_number">PHONE NUMBER</label>
-              <input type="text" name="phone_number" id="phone_number" />
+              <input
+                tabindex="4"
+                type="text"
+                name="phone_number"
+                id="phone_number"
+              />
 
               <label for="password_comfirm">COMFIRM PASSWORD</label
               ><input
+                tabindex="6"
                 type="password"
                 name="password_comfirm"
                 id="password_comfirm"
@@ -52,7 +79,7 @@
 
         <button class="submit-btn" type="submit">Create Account</button>
 
-        <p>
+        <p class="log-in">
           Already have and account?
           <a href="http://" target="_blank" rel="noopener noreferrer">Log in</a>
         </p>
